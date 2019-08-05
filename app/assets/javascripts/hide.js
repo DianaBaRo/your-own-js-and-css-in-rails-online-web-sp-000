@@ -1,3 +1,5 @@
-function hideWhenClicked () {
-  this.parentNode.style.display = 'none';
-}
+class Element < ActiveRecord::Base
+  function hideWhenClicked () {
+    this.parentNode.style.display = 'none';
+  }
+END
