@@ -1,4 +1,4 @@
 
 function hideWhenClicked() {
-  this.parentNode.style.display = 'none';
+  document.getElementById("hide_this").innerText = "";
 }
